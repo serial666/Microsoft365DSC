@@ -4,6 +4,9 @@
 
 * EXOOrganizationRelationship
   * Add support for new cross-tenant mailbox migration parameters: MailboxMoveCapability, MailboxMovePublishedScopes, OauthApplicationId
+* SPOTenantCdnPolicy
+  * Fixed issue where policies could be null and weren't returned.
+    FIXES [#2434](https://github.com/microsoft/Microsoft365DSC/issues/2434)
 
 # 1.22.1012.1
 
